@@ -1,0 +1,38 @@
+/* Container Layout website  - Container */
+.container{
+    margin: auto;
+    padding: auto;
+    text-decoration: none;
+    display: flex;
+    position: relative;
+    width: 80%;
+}
+/* Layout website - Header */
+.header{
+    border-color: black;
+    border-style: solid;
+    text-align: center;
+    height: 50px; 
+}
+
+/* Layout website - jumbotron */
+.jumbotron{
+    border-color: black;
+    border-style: solid;
+    text-align: center;
+    height: 300px; 
+}
+/* Layout website - main */
+.main{
+    border-color: black;
+    border-style: solid;
+    text-align: center;
+    height: 600px;
+}
+/* Layout website - footer */
+.footer{
+    border-color: black;
+    border-style: solid;
+    text-align: center;
+    height: 100px;
+}
