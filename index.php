@@ -8,7 +8,7 @@
     <title>UNIVERSITAS MUHAMMADIYAH BANTEN | LANDING PAGE</title>
 </head>
 <body>
-    <div class="container-fluid">
+    <div class="container">
         <!-- Main header -->
         <section class="header">
             <?php include 'header.php'?>
