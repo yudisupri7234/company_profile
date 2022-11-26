@@ -10,13 +10,11 @@
 </head>
 <body>
         <nav class="navbar">
-            
-            
-            <img src="asset/img/logo.png" alt="" class="nav-brand">
+            <img src="asset/img/logo.png" alt="" class="nav-brand" style="width:150px; padding-left:10px;">
             <a href="#">Beranda</a>
             <div class="dropdown">
-                <button class="dropbtn">
-                    Tentang Kampus
+                <button class="dropbtn" >
+                    <span class="name" style=" font-size:15px; font-family:segoe-ui; ">Tentang Kampus</span>
                 </button>
                 <div class="dropdown-content">
                     <a href="#">Informasi Mahasiswa</a>
@@ -25,8 +23,11 @@
             </div>
             <a href="#">Program</a>
             <a href="#">Kontak</a>
-            <button class="sign-in"><a href="#">Daftar</a></button>
-        
         </nav>
+        <style>
+            a{
+                padding-top:10px;
+            }
+        </style>
 </body>
 </html>

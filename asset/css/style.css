@@ -1,3 +1,21 @@
+/* body */
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+
+/* Container - fluid */
+.container{
+  margin: auto;
+  padding: auto;
+  text-decoration: none;
+  width: 100%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
 /* Container Layout website  - Container */
 .container{
     margin: auto;
@@ -13,10 +31,11 @@
     height: 50px;
     margin-top: 0;
     position: sticky;
+    background-color: white;
     top: 0;
     z-index: 2;
-
 }
+
 .content-header {
     text-decoration: none;
     height: 50px;
@@ -24,9 +43,15 @@
     position: sticky;
     z-index: 1;
 }
+nav{
+  
+  padding-bottom: 5px;
+  align-items: center;
+}
+
 /* Navigation Bar-image*/
 .nav-brand{
-    width: 15%;
+    
     margin-top: 0;
     float: left;
 }
@@ -34,6 +59,7 @@
 /* Navbar container */
 nav{
     height: 50px;
+   
 }
 .navbar {
     overflow: hidden;
@@ -41,14 +67,15 @@ nav{
     
   }
   
-  /* Links inside the navbar */
+/* Links inside the navbar */
   .navbar a {
     float: left;
     font-size: 15px;
     color: #404258;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 15px;
     text-decoration: none;
+    
   }
   
   /* The dropdown container */
@@ -89,7 +116,6 @@ nav{
   .dropdown-content a {
     float: none;
     color: #404258;
-    padding: 12px 12px;
     text-decoration: none;
     display: block;
     text-align: left;
@@ -107,24 +133,97 @@ nav{
 /* Layout website - jumbotron */
 .jumbotron{
     margin-top: 15px;
-    border-color: black;
-    border-style: solid;
-    text-align: center;
+    /* border-color: black;
+    border-style: solid; */
     height: 550px; 
 }
+
+.card{
+  display:flex;
+  height:550px;
+  background-color:#DEF5E5;
+  border-radius: 15px;
+
+}
+.content-text{
+  text-align:left;
+  margin:30px 15px 40px 30px;
+  padding-left:20px;
+  padding-top:50px;
+  padding-right:200px;
+  font-family:arial;
+
+}
+.content-text h1{
+  word-spacing:-5px;
+  line-height:50px;
+  font-size:50px;
+  color:#1a4d3a;
+  
+}
+
+.content-text p{
+  color: rgb(142, 195, 176);
+
+}
+
+.Get-started{
+  border: none;
+  border-radius: 20%;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  background-color: #1a4d3a;
+
+}
+
+.illustration img{
+  text-align:left;
+  margin:30px 15px 40px 30px;
+  padding-top:50px;
+  padding-right:50px;
+  font-family:arial;
+  border-radius: 10px 10px 10px 10px;
+}
+
 
 /* Layout website - main */
 .main{
     border-color: black;
     border-style: solid;
-    text-align: center;
     height: 600px;
+    margin-top: 15px;
 }
+
+.sosmed-bar{
+  text-align: center;
+  background-color: white;
+}
+.sosmed-item{
+  margin: 5px;
+
+}
+
+.sosmed-item span{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+
+
+
+
+
+
 
 /* Layout website - footer */
 .footer{
+    margin-top: 15px;
     border-color: black;
     border-style: solid;
     text-align: center;
-    height: 200px;
+    min-height: 300px;
 }
