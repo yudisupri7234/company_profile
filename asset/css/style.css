@@ -3,33 +3,41 @@
   margin: 0;
   padding: 0;
   text-decoration: none;
+ 
+  
+}
+body{
+  background-color: #fffefc;
+  font-family: inter-var, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 
 /* Container - fluid */
 .container{
+  
   margin: auto;
   padding: auto;
   text-decoration: none;
-  width: 100%;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  width: 90%;
+  font-family: inter-var, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
 
 }
 
 /* Container Layout website  - Container */
-.container{
+/* .container{
     margin: auto;
     padding: auto;
     text-decoration: none;
     width: 90%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+} */
 
 /* Layout website - Header */
 .header{
     position: -webkit-sticky;
-    height: 50px;
-    margin-top: 0;
+    height: 60px;
+    margin:auto;
+    padding: 5px 5px 10px 20px;
     position: sticky;
     background-color: white;
     top: 0;
@@ -45,7 +53,7 @@
 }
 nav{
   
-  padding-bottom: 5px;
+  /* padding-bottom: 5px; */
   align-items: center;
 }
 
@@ -63,7 +71,9 @@ nav{
 }
 .navbar {
     overflow: hidden;
+    padding-top: 10px;
     background-color:white;
+    width: 100%;
     
   }
   
@@ -71,12 +81,15 @@ nav{
   .navbar a {
     float: left;
     font-size: 15px;
-    color: #404258;
+    font-weight: bold;
+    color: #2c3e50;
     text-align: center;
     padding: 14px 15px;
     text-decoration: none;
-    
+ 
   }
+
+ 
   
   /* The dropdown container */
   .dropdown {
@@ -89,12 +102,15 @@ nav{
     font-size: 15px;
     border: none;
     outline: none;
-    color: #404258;
-    padding: 14px 14px;
+    color: #2c3e50;
+    font-weight: bold;
+    padding: 14px 15px;
     background-color: inherit;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /* Important for vertical align on mobile phones */
+    font-family: inter-var, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
     margin: 0; /* Important for vertical align on mobile phones */
   }
+
+ 
   
   /* Add a red background color to navbar links on hover */
   .navbar a:hover, .dropdown:hover .dropbtn {
@@ -117,9 +133,24 @@ nav{
     float: none;
     color: #404258;
     text-decoration: none;
+    font-family:inter-var, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
     display: block;
     text-align: left;
   }
+
+
+  .nav-right p{
+    float: right;
+    padding-left: 200px;
+    color: #404258;
+    text-decoration: none;
+    font-family:inter-var, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+    display: block;
+    text-align: center;
+    padding: 14px 15px;
+    font-weight: 400;
+  }
+ 
   
   /* Add a grey background color to dropdown links on hover */
   .dropdown-content a:hover {
@@ -130,6 +161,9 @@ nav{
   .dropdown:hover .dropdown-content {
     display: block;
   }
+
+
+
 /* Layout website - jumbotron */
 .jumbotron{
     margin-top: 15px;
@@ -141,7 +175,7 @@ nav{
 .card{
   display:flex;
   height:550px;
-  background-color:#DEF5E5;
+  background-color:#fffefc ;  
   border-radius: 15px;
 
 }
@@ -154,31 +188,6 @@ nav{
   font-family:arial;
 
 }
-.content-text h1{
-  word-spacing:-5px;
-  line-height:50px;
-  font-size:50px;
-  color:#1a4d3a;
-  
-}
-
-.content-text p{
-  color: rgb(142, 195, 176);
-
-}
-
-.Get-started{
-  border: none;
-  border-radius: 20%;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  background-color: #1a4d3a;
-
-}
 
 .illustration img{
   text-align:left;
@@ -189,29 +198,39 @@ nav{
   border-radius: 10px 10px 10px 10px;
 }
 
+/* Diviner */
 
+  .diviner{
+    width: 100%;
+    background-color: #ecf0f1;
+  }
+
+/* End Diviner */
 /* Layout website - main */
+
 .main{
-    border-color: black;
-    border-style: solid;
-    height: 600px;
-    margin-top: 15px;
+  border-style: solid;
+  border-width: 1px;
+  height: 600px;
+  width: 100%;
+  background-color: #c3d9d0;
+  offset: 100px;
 }
 
-.sosmed-bar{
-  text-align: center;
-  background-color: white;
-}
-.sosmed-item{
-  margin: 5px;
-
-}
-
-.sosmed-item span{
-  margin-left: 5px;
-  margin-right: 5px;
+.informasi {
+  background-color: #1a2e35;
+  
+  height: 50px;
+  box-shadow: 2px 4px 8px rgb(189, 189, 189);
+  display: flex;
+  opacity: 100%;
+  width: 100%;
 }
 
+.informasi span{
+  margin: auto;
+  padding: auto;
+}
 
 
 

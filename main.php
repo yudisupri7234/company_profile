@@ -5,40 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="asset/css/style.css">
+    <script src="https://kit.fontawesome.com/263be8e4ac.js" crossorigin="anonymous"></script>
     <title></title>
 </head>
-<body>
-    <div class="sosmed-bar">
-        <div class="sosmed-item">
-            <h3>Hubungi Kami</h3>
-            <span> <img src="asset/icn/fb.png" alt=""><a href=""></a></span>
-            <span> <img src="asset/icn/ig.png" alt=""><a href=""></a></span>
-            <span> <img src="asset/icn/tiktok.png" alt=""><a href=""></a></span>
-            <span> <img src="asset/icn/lk.png" alt=""><a href=""></a></span>
-        </div>
-    </div>
+    <body>
+        <section class="berita">
 
-    <div class="card-content">
-
-    </div>
-
-    <style>
-        img{
-            width:150px;
-        }
-        span{
-            margin-left:10x;
-            margin-right:10px;
-            padding-left:10px;
-            padding-right:40px;
-            padding-left:40px;
-        }
-        .card{
-            background-color:grey;
-
-        }
-    </style>
-
+        </section>
+        <section class=""></section>
+        
+    </body>
     
-</body>
+
+
+
 </html>
