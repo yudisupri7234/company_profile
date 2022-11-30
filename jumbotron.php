@@ -12,10 +12,10 @@
     
     <div class="card" style="background-color:#fffefc;">
         <div class="content-text">
-            <h1> Lorem ipsum, dolor sit amet consectetur adipisicing elit </h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis exercitationem eveniet cumque 
-                odit veniam iusto minus hic animi, eius totam, repudiandae assumenda at reiciendis deleniti, nisi 
-                ut fugiat corporis est.
+            <h1>  Pendaftaran mahasiswa Baru sudah dibuka !! </h1>
+            <p> 
+                Program Studi : <br> Sistem Informasi , Teknik Informatika, Teknik Industri, 
+                Manajemen Informastika,Stastra Inggris, Sastra Indonesia, Sastra Arab. 
             </p>
             <button class="Get-started"><a href="#" style="color:white; text-decoration:none;">Mulai Sekarang</a></button>
         </div>

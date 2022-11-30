@@ -8,6 +8,6 @@
     <title></title>
 </head>
 <body>
-    <h1>This is footer</h1>
+    <span style="margin:auto; color:silver;">&copy; Yudi Supriyadi-2022 </span>
 </body>
 </html>

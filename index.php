@@ -32,14 +32,14 @@
             <section class="main">
                 <?php include 'main.php'?>
             </section>
-            <!-- Footer -->
-            <Section class="footer">
-                <?php include 'footer.php' ?>
-            </Section>
         </div>
-        
     </div>
-        
+    <div class="diviner">
+        <!-- Footer -->
+        <Section class="footer">
+            <?php include 'footer.php' ?>
+        </Section>
+    </div>
     </div>
     
 </body>

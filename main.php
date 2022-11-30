@@ -45,10 +45,66 @@
             </div>     
         </section>
         <hr>
-        <section class="lainnya">
-
+        <section class="why">
+            <h1>Mengapa memilih <br> Universitas Muhammadiyah Banten ?</h1>
+            <div class="container-card">
+                <div class="kolom2">
+                    <div class="kartu">
+                        <span><i class="fa-solid fa-check fa-2xl"></i></span>
+                        <br>
+                        <br>
+                        <br>
+                        <h2>Kampus Terakreditasi "B"</h2>
+                        <br>
+                        <p>Lorem ipsum dolor sit amet consectetur, quibusdam doloribus ab corrupti, 
+                            deleniti delectus recusandae nobis culpa iste eius?</p>
+                    </div>
+                    <div class="kartu">
+                        <span><i class="fa-sharp fa-solid fa-user fa-2xl"></i></span>
+                        <br>
+                        <br>
+                        <br>
+                        <h2>Pengajar Yang Kompeten DIbidangnya</h2>
+                        <br>
+                        <p>Lorem ipsum dolor sit amet consectetur, quibusdam doloribus ab corrupti, 
+                            deleniti delectus recusandae nobis culpa iste eius?</p>
+                    </div>
+                    <div class="kartu">
+                        <span><i class="fa-solid fa-graduation-cap fa-2xl"></i></span>
+                        <br>
+                        <br>
+                        <br>
+                        <h2>Kampus <br>Terakreditasi "B"</h2>
+                        <br>
+                        <p>Lorem ipsum dolor sit amet consectetur, quibusdam doloribus ab corrupti, 
+                            deleniti delectus recusandae nobis culpa iste eius?</p>
+                    </div>
+                </div>
+            </div>
         </section>
-        
+        <hr>
+        <section class="introduction-video">
+            <h1>Sambutan Rektor Universitas Muhammadiyah Banten <br>
+            </h1>
+            <br>
+            <div class="content-video">
+                <iframe width="560" style=" margin:auto;" height="315" src="https://www.youtube.com/embed/z91bRtCoPLI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <br>
+            <p class="partono" style="text-align:center; ">Dr.Partono Siswosuharjo,.Drs.SH.MM</p>
+            
+        </section>
+        <style>
+           
+           .content-video{
+            margin: auto;
+            width: 500px;
+           } 
+
+           
+           
+           
+        </style>
     </body>
     
 
