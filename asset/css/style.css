@@ -193,7 +193,6 @@ nav{
     background-color: #2980b9;
     width: 150px;
     height: 40px;
-    /* margin-left: 10px; */
     padding: auto;
     float: right;
     border-radius: 10px;
@@ -202,15 +201,14 @@ nav{
     text-align: center; 
     padding: auto;
     margin: 0px 10px 0px 10px;
-    /* padding-left:50px; 
-    padding-top:10px; */
     
 }
 
 .btn-signin a{
     margin-left: auto;
     padding-left: 50px;
-    color: white;
+    padding-top: 10px;
+    color: rgb(233, 233, 233);
 }
 
 
@@ -264,7 +262,6 @@ nav{
   font-family: 'Courier New', Courier, monospace;
   color: black;
   opacity: 60%;
-
  }
 
  .Get-started{
@@ -276,6 +273,10 @@ nav{
   border-radius: 5%;
   margin: 20px 10px 10px 10px;
 
+ }
+
+ .Get-started a{
+  color: rgb(233, 233, 233);
  }
 
 /* Diviner */
@@ -306,6 +307,8 @@ nav{
 
 
 
+
+
 .informasi span{
   margin: auto;
   padding: auto;
@@ -325,16 +328,10 @@ nav{
 }
 
 
-.panel p{
-  overflow: hidden;
-  height: 80px;
-
-}
-
 .portal h1{
   padding-top: 5px;
-  color: white;
-  text-shadow: 2px 4px 8px  #1a2e35;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 4px 8px  rgba(26, 46, 53,50%);
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   padding-left: 100px;
@@ -391,10 +388,11 @@ nav{
   width: 400px;
   margin: 10px;
   height: 300px;
-  box-shadow: 2px 4px 16px silver;
+  box-shadow: 2px 4px 16px rgb,a(192, 192, 192,50%);
   border-radius: 10px;
   align-items: center;
   text-align: center;
+  
 }
 
 .why h1{
@@ -444,4 +442,9 @@ nav{
   display: flex;
   opacity: 100%;
   width: 100%;
+}
+
+.footer span{
+  margin:auto;
+   color:silver;
 }
